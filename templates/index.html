@@ -1,9 +1,17 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
-    <header>
-        <title>Home</title>
-    </header>
-    <body>
+<head>
+    <title>Home</title>
+    <script src="{% static '/bootstrap-5.3.3-dist/js/bootstrap.min.js' %}"></script>
+    <link rel="stylesheet" href="{% static '/bootstrap-5.3.3-dist/css/bootstrap.min.css' %}" >
+</header>
+
+<body>
+    <div class="container mt-5">
         <h1>This Home Page Welcome.</h1>
-    </body>
+        <button class="btn btn-info mt-2">TEST</button>
+    </div>
+</body>
+
 </html>
