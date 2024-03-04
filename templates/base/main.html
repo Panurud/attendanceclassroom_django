@@ -1,0 +1,17 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Attendance Classroom</title>
+        <link rel="shortcut icon" type="image/png" href="{% static 'favicon.png' %}" >
+
+        {% include 'base/header_css.html' %}
+        {% block baseCSS %} {% endblock %}
+
+        {% include 'base/header_js.html' %}
+        {% block baseJS %} {% endblock %}
+    </head>
+    <body>
+        {% block content %} {% endblock %}
+    </body>
+</html>
